@@ -1,8 +1,8 @@
 {
   "name": "raxrc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "quickly create ~/.raxrc with tenant id populated from the Rackspace Keystone API ",
-  "main": "bin/raxrc.js",
+  "main": "raxrc.js",
   "bin": {
     "raxrc": "raxrc.js"
   },
