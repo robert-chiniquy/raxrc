@@ -1,0 +1,27 @@
+{
+  "name": "raxrc",
+  "version": "0.0.0",
+  "description": "quickly create ~/.raxrc with tenant id populated from the Rackspace Keystone API ",
+  "main": "bin/raxrc.js",
+  "bin": {
+    "raxrc": "raxrc.js"
+  },
+  "dependencies": {
+    "async": "~0.2.7",
+    "ini": "~1.1.0",
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:robert-chiniquy/raxrc.git"
+  },
+  "keywords": [
+    "Rackspace"
+  ],
+  "author": "Robert Chiniquy",
+  "license": "BSD"
+}
